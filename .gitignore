@@ -8,4 +8,4 @@ application.macosx
 
 # Build Directories
 Gamepad_Gaussians/build-tmp
-Gmpd_Gaussians_vectorScale/build-tmp
+Gamepad_Gaussians/vectorScale/build-tmp
