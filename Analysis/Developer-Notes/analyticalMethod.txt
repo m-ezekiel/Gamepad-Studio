@@ -1,0 +1,53 @@
+# Developer-Notes - Analytical Methodology
+
+Central data visualization should be a sessionLog of sufficient length to demonstrate multiple ideas explored with keypress rug charts beneath the dygraph time series.
+
+Since the pause threshold is likely to differ between individuals as well as change over time, I should explore both long and short sessions to look at pauses ranging from 1 to 16 seconds.
+
+I'll hereafter refer to the rug charts as boolean multiplots.
+
+My hypothesis is that each session contains thematic elements.  If no learning oriented exploration were occurring then each session would contain approximately the same distribution of keypresses.
+
+Or I could look at the proportion of multi-key occurences.  Which really is testing a specific type of learning.  There are other kinds of learning which involve concepts such as gaussian randomness.
+
+H0: people press keys randomly
+H1: 
+
+I can integrate the color histograms into multiplot.  Actually it's not on the same scale as the index so it just ends up looking confusing.
+
+[1]   363  1927  8482 12789 15449 18861
+
+1st - leftJoy and random, disp, size
+2nd - position, opacity
+3rd - position, random, leftJoy
+
+A game with no goals would have no structure.  I would make the claim that the support ratios in each session provide evidence that each session explores different ideas.
+
+k1
+                                 items      support
+[1]                          {leftJoy} 0.6990163590
+[2]                         {position} 0.3575298511
+
+k2
+                         items      support
+[1]                  {leftJoy} 0.6798153588
+[2]                     {blue} 0.2681493915
+
+k3
+                               items     support
+[1]                        {leftJoy} 0.671489739
+[2]                          {green} 0.200059058
+
+k4
+                                   items     support
+[1]                            {leftJoy} 0.817762808
+[2]                             {random} 0.606452757
+
+k5
+                                      items     support
+[1]                               {leftJoy} 0.674263480
+[2]                              {position} 0.592134519
+
+- - -
+
+In order to really look at the graphs I need the proper resolution for moves.  Sometimes they occur in for many seconds, but given my scaling and frame rate it looks like more often changes occur for around 50 consecutive action frames.

@@ -1,0 +1,13 @@
+# Developer-Notes - References
+
+1. 
+Hershman, Anneli. "They’re having fun… but are they learning?" https://www.media.mit.edu/posts/they-re-having-fun-but-are-they-learning/
+
+2.
+Rosenqvist, Simon. "Developing Pause Thresholds for Keystroke Logging Analysis."
+
+3.
+Klein and Boscolo. "Trends in Writing as a Learning Activity."
+
+4.
+Drachen, Anders. "Game Analytics."
